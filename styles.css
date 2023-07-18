@@ -1,0 +1,79 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 59%);
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: left -300px top -498px, left 650px top 350px;
+}
+
+#card{
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 5px 0px 50px hsla(229, 23%, 23%, 0.685);
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+
+#pattern{
+    width: 352px;
+}
+
+
+#victor{
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: white;
+    margin-top: -60px;
+
+}
+
+#name{
+    color: hsl(229, 23%, 23%);
+    font-size: x-large;    
+    font-weight: bold;
+}
+
+#age{
+    font-size: x-large;
+    padding-left: 5px;
+}
+
+#nameage{
+    display: flex;
+}
+
+#end{
+    display: flex;
+}
+
+.fig{
+    color: hsl(229, 23%, 23%);
+    font-size: large;
+    font-weight: bold;
+}
+
+#likes{
+    padding-left: 50px;
+}
+
+#photos{
+    padding-left: 50px;
+}
+
+hr{
+    height: 1px;
+    width: 350px;
+   border-bottom: 1px solid hsla(0, 0%, 67%, 0.582);
+   border-top: 0cm;
+}
